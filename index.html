@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center;color:white;margin-top: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">
+      <img src="images/logo.svg" alt="">
+      <div class="score">
+        <span class="sc-txt">SCORE</span>
+        <span class="sc-number">12</span>
+      </div>
+    </h1>
+
+    <div class="main-content">
+
+      <div class="flex-img">
+        <div class="img">
+          <img class="paper imgs" src="images/icon-paper.svg" alt="">
+        </div>
+
+        <div class="img">
+          <img class="scissors imgs" src="images/icon-scissors.svg" alt="">
+        </div>
+      </div>  
+
+      <div class="img rock-div">
+        <img class="rock imgs" src="images/icon-rock.svg" alt="">
+      </div>
+
+      <img class="triangle" src="images/bg-triangle.svg" alt="">
+
+    </div>
+
+
+    <!-- Result-content -->
+
+    <div class="result-content">
+      <div>
+        <h2>YOU PICKED</h2>
+        <div class="r-div">
+          <!-- <span class="res-img"></span> -->
+          <img class="user-img" src="" alt="" srcset="">
+        </div>
+      </div>
+
+      <div class="result-txt">
+        <p>Draw !</p>
+        <button class="play-again-btn">PLAY AGAIN</button>
+      </div>
+
+      <div>
+        <h2>THE HOUSE PICKED</h2>
+        <div class="r-div">
+          <!-- <span class="res-img"></span> -->
+          <img class="res-img" src="" alt="" srcset="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="rules-btn">RULES</button>
+  <div class="rule" style="display: none;">
+    <img class="close" src="images/icon-close.svg" alt="" srcset="">
+    <h2 style="margin-bottom: 20px;">RULES</h2>
+    <img class="rules-img"  src="images/image-rules.svg" alt="" srcset="">
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Prasanth</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
