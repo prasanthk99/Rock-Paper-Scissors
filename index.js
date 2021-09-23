@@ -91,7 +91,7 @@ function scoreUpdate(){
         case "YOU WIN":
             score = score + 1;
         break;
-        case "YOU LOOSE":
+        case "YOU LOSE":
             if(score>0){
                 score = score - 1;
             }    
