@@ -1,7 +1,7 @@
 
 var len = document.querySelectorAll(".img").length;
 var s; 
-var score = 12;
+var score = 0;
 
 // PickingUp-Choice
 
